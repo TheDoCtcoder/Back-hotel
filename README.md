@@ -41,7 +41,7 @@ Technology : React / Express
     ## SECURITY
     ___________________
 
-    Argon2       = Creation de ID Auto
+    Argon2       = HASH des passwords
     Validator    = Library d'aide a la securité et validation
 
 
