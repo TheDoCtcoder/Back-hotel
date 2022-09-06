@@ -1,4 +1,4 @@
-const {isEmail} = require ('validator')
+const {isEmail, isMobilePhone} = require ('validator')
 const { Schema , model} = require("mongoose");
 
 
@@ -28,9 +28,16 @@ const userSchema = new Schema({
         required: true,
     },
     phone:{
-        type: Number,
+        type: String,
         required: true,
+        // validate:[isMobilePhone],
+        // validate:[isMobilePhone('fr-BE','fr-FR','it-IT','de-DE','nl-NL')],
         trim: true,
+        validate: {
+            validator: value => isMobilePhone(value, 'fr-BE'),
+            message: props => "Le format du téléphone est mauvais"
+        },
+
     },
     password: {
         type: String,
