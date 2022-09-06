@@ -29,7 +29,7 @@ roomRouter.put('/:id', authentication(['Admin']), idValidator(), roomController.
 
 roomRouter.post('/', authentication(['Admin']), roomController.creat)
 
-roomRouter.delete('/:id', idValidator(), authentication(['Admin']), roomController.delete)
+roomRouter.delete('/:id', authentication(['Admin']), idValidator(), roomController.delete)
 
 
 //todo Exported ROOT
