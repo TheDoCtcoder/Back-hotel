@@ -16,3 +16,5 @@ class clientDTO {
         this.phone = phone
     }
 }
+
+module.exports = clientDTO
