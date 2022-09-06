@@ -6,7 +6,7 @@ const { json } = require("express")
 
 //todo imported MODELS (command)
 //todo ________________________________
-const Reservation = require('../model/reservation.model')
+const Reservation = require('../model/reservation-model')
 const token = require()
 
 
@@ -53,7 +53,7 @@ const reservationController = {
 
 //* ------------------------------------------------------
 
-    create: async (req, res) => {
+    creat: async (req, res) => {
 
         const reservationADD = Reservation(req.body)
 

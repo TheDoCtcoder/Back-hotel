@@ -11,7 +11,7 @@ const clientDTO = require('../DTO/client-dto')
 
 //todo imported MODELS (clients)
 //todo ________________________________
-const Client = require('../model/user-models')
+const Client = require('../model/user-model')
 
 
 
