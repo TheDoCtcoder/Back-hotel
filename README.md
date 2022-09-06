@@ -6,6 +6,7 @@ Role :
         
         - Back-End  Developer = Toni & Bryan
         - Front-End Developer = Jean-luc & Yael
+        - Back-End & Front-End Developper = Donovan
 
 
 Technology : React / Express
@@ -40,7 +41,11 @@ Technology : React / Express
     ## SECURITY
     ___________________
 
+<<<<<<< HEAD
     Argon2       = Creation de ID Auto
+=======
+    Argon2       = HASH des passwords
+>>>>>>> 9ecdbbb78f2868b0d0c5086eeeb6aec3a53b003c
     Validator    = Library d'aide a la securité et validation
 
 
@@ -48,4 +53,8 @@ Technology : React / Express
     ## PERSONAL
     ___________________
 
+<<<<<<< HEAD
     Nodemon = Server Virtuel personnel
+=======
+    Nodemon = Server Virtuel personnel
+>>>>>>> 9ecdbbb78f2868b0d0c5086eeeb6aec3a53b003c
