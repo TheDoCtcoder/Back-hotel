@@ -81,6 +81,6 @@ const roomSchema = new Schema({
 
 })
 
-const room = model('room', roomSchema);
+const Room = model('room', roomSchema);
 
-module.exports = room;
+module.exports = Room;
