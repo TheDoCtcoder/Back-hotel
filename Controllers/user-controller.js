@@ -4,7 +4,7 @@
 
 //todo imported DTO
 //todo ________________________________
-const clientDTO = require()
+const clientDTO = require('../DTO/client-dto')
 
 
 
@@ -17,7 +17,7 @@ const Client = require('../model/user-model')
 
 //todo FUNCTION Mappage CLIENT
 //todo _________________________________
-const clientMapToDTO = (client) => new clientDTO()
+const clientMapToDTO = (client) => new clientDTO(client.id, client.lastname, client.firstname, client.mail, client.country, client.phone)
 
 
 
