@@ -1,111 +1,107 @@
 // uniquement copier dans la requête json creation hôtel 
 // un hôtel à la fois puis send.
-
 // ici la liste des 5 hotels.
-
-
-
 {
-    {
-        "name":"GoodNight Amsterdam",
-        "star":"2",
-        "adresse":{
-           "cp":"1000",
-           "num":"78",
-           "street":"Javastraat",
-           "country":"Pays-Bas"
-        },
-           "tel":"0486879685",
-           "email":"GooodNight@holland.nl",
-           "room":true,
-           "pool":"Oui",
-           "valet":"Oui",
-           "roomservice":"Oui"
-        
-     }
+   {
+      "name": "GoodNight Amsterdam",
+      "star": "2",
+      "adresse": {
+         "cp": "1000",
+         "num": "78",
+         "street": "Javastraat",
+         "country": "Pays-Bas"
+      },
+      "tel": "0486879685",
+      "email": "GooodNight@holland.nl",
+      "room": true,
+      "pool": "Oui",
+      "valet": "Oui",
+      "roomservice": "Oui",
+      "img": "https://images.unsplash.com/photo-1546894544-c8e65260b1cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
+   }
 }
 
 
 
 
 {
-    {
-        "name":"GoodNight Roma",
-        "star":"3",
-        "adresse":{
-           "cp":"1125",
-           "num":"78",
-           "street":"Via di Cesare",
-           "country":"Italie"
-        },
-           "tel":"0486879687",
-           "email":"GooodNight@italia.it",
-           "room":true,
-           "pool":"Oui",
-           "valet":"Non",
-           "roomservice":"Oui"
-        
-     }
+   {
+      "name": "GoodNight Roma",
+      "star": "3",
+      "adresse": {
+         "cp": "1125",
+         "num": "78",
+         "street": "Via di Cesare",
+         "country": "Italie"
+      },
+      "tel": "0486879687",
+      "email": "GooodNight@italia.it",
+      "room": true,
+      "pool": "Oui",
+      "valet": "Non",
+      "roomservice": "Oui",
+      "img": "https://images.unsplash.com/photo-1593280401520-d7609e96a652?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=689&q=80"
+   }
 }
 
 
 
 {
-    "name":"GoodNight Paris",
-    "star":"5",
-    "adresse":{
-       "cp":"88457",
-       "num":"748",
-       "street":"Avenue des champs elysées",
-       "country":"France"
-    },
-       "tel":"0486849687",
-       "email":"GooodNight@france.fr",
-       "room":true,
-       "pool":"Oui",
-       "valet":"Non",
-       "roomservice":"Oui"
-    
- }
+   "name": "GoodNight Paris",
+   "star": "5",
+   "adresse": {
+      "cp": "88457",
+      "num": "748",
+      "street": "Avenue des champs elysées",
+      "country": "France"
+   },
+   "tel": "0486849687",
+   "email": "GooodNight@france.fr",
+   "room": true,
+   "pool": "Oui",
+   "valet": "Non",
+   "roomservice": "Oui",
+   "img": "https://images.unsplash.com/photo-1549144511-f099e773c147?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+}
 
 
 
 
  {
-    "name":"GoodNight Bruxelles",
-    "star":"1",
-    "adresse":{
-       "cp":"1000",
-       "num":"136",
-       "street":"Avenue Louise",
-       "country":"Belgique"
-    },
-       "tel":"0487849687",
-       "email":"GooodNight@belgique.be",
-       "room":true,
-       "pool":"Oui",
-       "valet":"Non",
-       "roomservice":"Oui"
-    
- }
+   "name": "GoodNight Bruxelles",
+   "star": "1",
+   "adresse": {
+      "cp": "1000",
+      "num": "136",
+      "street": "Avenue Louise",
+      "country": "Belgique"
+   },
+   "tel": "0487849687",
+   "email": "GooodNight@belgique.be",
+   "room": true,
+   "pool": "Oui",
+   "valet": "Non",
+   "roomservice": "Oui",
+   "img": "https://images.unsplash.com/photo-1546894544-c8e65260b1cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
+}
 
 
 
  
  {
-    "name":"GoodNight Dusseldorf",
-    "star":"1",
-    "adresse":{
-       "cp":"4587",
-       "num":"878",
-       "street":"Carduffstraat",
-       "country":"Allemagne"
-    },
-       "tel":"0487829687",
-       "email":"GooodNight@deutch.de",
-       "room":true,
-       "pool":"Non",
-       "valet":"Non",
-       "roomservice":"Non"
-    
- }
+   "name": "GoodNight Dusseldorf",
+   "star": "1",
+   "adresse": {
+      "cp": "4587",
+      "num": "878",
+      "street": "Carduffstraat",
+      "country": "Allemagne"
+   },
+   "tel": "0487829687",
+   "email": "GooodNight@deutch.de",
+   "room": true,
+   "pool": "Non",
+   "valet": "Non",
+   "roomservice": "Non",
+   "img": "https://images.unsplash.com/photo-1541437449624-be330ab0505b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2019&q=80",
+}

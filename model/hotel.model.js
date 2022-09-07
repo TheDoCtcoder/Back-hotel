@@ -68,6 +68,10 @@ const hotelSchema = new Schema({
         type:String,
         enum:['Oui', 'Non'],
         required:true
+    },
+    img:{
+        type:String,
+        required:true
     }
 
 })
