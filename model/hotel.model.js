@@ -1,4 +1,4 @@
-const { Schema } = require("mongoose");
+const { Schema, model } = require("mongoose");
 const {isEmail, isMobilePhone} = require ('validator')
 
 const hotelSchema = new Schema({
@@ -31,15 +31,15 @@ const hotelSchema = new Schema({
             enum:['Belgique', ' Italie',' France',' Allemagne',' Pays-Bas']
         },
 
-
-        required:true,
-        trim:true
     },
     tel:{
         type: String,
-        validate:[isMobilePhone(['fr-BE','fr-FR','it-IT','de-DE','nl-NL'])],
+        // validate:[isMobilePhone('fr-FR')],
         required:true,
-        trim:true
+        trim:true,
+        validate: {
+            validator: (value) => validator.isMobilePhone(value, 'fr-BE')
+        },
 
     },
     email:{
@@ -56,7 +56,7 @@ const hotelSchema = new Schema({
     pool:{
         Type:[String],
         enum:['Oui','Non'],
-        required:true
+        // required:true
     },
     valet:{
         type:[String],

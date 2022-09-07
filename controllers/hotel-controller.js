@@ -5,7 +5,7 @@
 
 // todo IMPORTATION Utils
 // todo __________________________________
-const Hotel = require('../model/hotel-model')
+const Hotel = require('../model/hotel.model')
 
 
 //todo CONTROLLER Authentication configuration
@@ -53,7 +53,7 @@ const hotelController = {
     //* ------------------------------------------------------
 
 
-    creat: async (req, res) => {
+    create: async (req, res) => {
 
         const hotelADD = Hotel(req.body)
 
@@ -129,4 +129,4 @@ const hotelController = {
 
 //todo Exported CONTROLLER
 //todo ________________________________
-export default hotelController
+module.exports = hotelController
