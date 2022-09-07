@@ -71,11 +71,10 @@ const roomSchema = new Schema({
         required:true,
     },
     deletedate:{
-        type: String,
+        type: Date,
         trim: true, 
         enum: ['Oui','Non'],
         default:"Null",
-        required:true
     }
     
 

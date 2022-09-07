@@ -1,6 +1,7 @@
 // uniquement copier dans la requête json creation hôtel 
 // un hôtel à la fois puis send.
 // ici la liste des 5 hotels.
+
 {
    {
       "name": "GoodNight Amsterdam",
@@ -17,7 +18,9 @@
       "pool": "Oui",
       "valet": "Oui",
       "roomservice": "Oui",
-      "img": "https://images.unsplash.com/photo-1546894544-c8e65260b1cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
+      "img": "https://imagizer.imageshack.com/img924/4445/BQBgPW.png",
+      "description":"Que dire que le Pays-bas est chaleureux, que dire de ces quartiers connus de tous, que dire d’une ville aussi soignée et présentable que Amsterdam, sincèrement quand on aime voyager Amsterdam est un incontournable, une telle emprise sur soi, un séjour avec Good Night vous donnera envie de ne jamais repartir. Cet hôtel à l’architecture néo-classique aux services les plus extra, piscine intérieure, spa, room service. Chaque membre du personnel sera présent pour assouvir chacune de vos demandes.",
+      "slogan":"GOOD NIGHT Hôtel : planer, vos désirs seront exaucés."
    }
 }
 
@@ -40,7 +43,9 @@
       "pool": "Oui",
       "valet": "Non",
       "roomservice": "Oui",
-      "img": "https://images.unsplash.com/photo-1593280401520-d7609e96a652?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=689&q=80"
+      "img": "https://imagizer.imageshack.com/img923/2228/zde7cN.png",
+      "description": "La Vita e Bella à Roma, profitez d’un cadre somptueux dans un hôtel typique d’Italie, à la façade blanche dans un confort luxuriant aux plages de sable blanc privées, profitez d’une piscine pour vous relaxer avec vos enfants. La chaleur de l’Italie vous attend pour un séjour au GoodNight Hôtel qui vous promet un regain de vitalité.",
+      "slogan":"GOOD NIGHT Hôtel :  le rêve à portée de main."
    }
 }
 
@@ -61,7 +66,9 @@
    "pool": "Oui",
    "valet": "Non",
    "roomservice": "Oui",
-   "img": "https://images.unsplash.com/photo-1549144511-f099e773c147?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+   "img": "https://imagizer.imageshack.com/img924/3262/r4fjZE.png",
+   "description":"Au Versaille de ta sagesse, je m’imprègne du Paris philosophe des citadins, d’amour et de poésie, tu nous guettes de tes envies. Qui n’a jamais rêvé d’un voyage romantique dans la capitale de l’amour, ceci est notre devise, profitez d’un château digne des contes de fée au vrai style louis XIV, des suites et des chambres de palais pour vous faire sentir comme les Rois et les Reines d’antan, un séjour au petit soin pour une lune de miel au Rythme des lumières de la ville la plus Romantique qu’il soit.",
+   "slogan":"GOOD NIGHT Hôtel : After French Kiss."
 }
 
 
@@ -82,7 +89,9 @@
    "pool": "Oui",
    "valet": "Non",
    "roomservice": "Oui",
-   "img": "https://images.unsplash.com/photo-1546894544-c8e65260b1cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
+   "img": "https://imagizer.imageshack.com/img922/5595/JqIVcy.png",
+   "description":"La culture, la Mixité, tout cela est pour vous signe d’un intérêt Fondamental, alors ne cherchez plus GoodNight hôtel vous offre un voyage au cœur de la capitale européenne où la culture fait partie de la vie courante, dans un Hôtel de style Baroque, plongez dans l’histoire, des suites luxuriantes, un Room Service 24h, tout confort pour ne penser qu’à découvrir et vous cultiver.",
+   "slogan":"GOOD NIGHT Hôtel : le repos et la clef de la Culture."
 }
 
 
@@ -103,5 +112,7 @@
    "pool": "Non",
    "valet": "Non",
    "roomservice": "Non",
-   "img": "https://images.unsplash.com/photo-1541437449624-be330ab0505b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2019&q=80",
+   "img": "https://imagizer.imageshack.com/img923/8172/l2k2eB.png",
+   "description":"Allemagne Sacrée Allemagne, cette ville, ce pays a temps de chose à raconter son histoire tumultueuse vous emmène au fin fond de la nature de l’homme, ces villes animée jour et nuit et ses NightClub réputés dans le monde entier tel que Berghien, amoureux de la distraction GoodNight est là pour vous, jeune population, profitez des séjours prévus pour vous au temple des Fêtes les plus underground, service Voiturier, un Room Service 24h.",
+   "slogan":"GOOD NIGHT Hôtel : même éveillé cela reste possible."
 }
