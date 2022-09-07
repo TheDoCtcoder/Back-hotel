@@ -129,4 +129,4 @@ const hotelController = {
 
 //todo Exported CONTROLLER
 //todo ________________________________
-export default hotelController
+module.exports = hotelController

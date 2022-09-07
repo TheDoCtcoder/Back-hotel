@@ -13,20 +13,20 @@ const hotelSchema = new Schema({
     },
     adresse:{
         cp:{
-            type: String,
+            type: [String],
             required: true,
         },
         num:{
-            type: String,
+            type: [String],
             required: true,
         },
         street:{
-            type:String,
+            type: [String],
             required:true,
             trim:true,
         },
         country:{
-            type:[String],
+            type: [String],
             required:true,
             enum:['Belgique', ' Italie',' France',' Allemagne',' Pays-Bas']
         },
@@ -37,7 +37,8 @@ const hotelSchema = new Schema({
     },
     tel:{
         type: String,
-        validate:[isMobilePhone(['fr-BE','fr-FR','it-IT','de-DE','nl-NL'])],
+        validate: { 
+            validator: (value) => validator.isMobilePhone(value, 'fr-BE')},
         required:true,
         trim:true
 
