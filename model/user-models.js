@@ -34,7 +34,7 @@ const userSchema = new Schema({
         // validate:[isMobilePhone('fr-BE','fr-FR','it-IT','de-DE','nl-NL')],
         trim: true,
         validate: {
-            validator: value => isMobilePhone(value, 'fr-BE'),
+            validator: value => isMobilePhone(value, 'fr-BE','fr-FR','it-IT','de-DE','nl-NL'),
             message: props => "Le format du téléphone est mauvais"
         },
 

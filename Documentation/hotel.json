@@ -1,0 +1,111 @@
+// uniquement copier dans la requête json creation hôtel 
+// un hôtel à la fois puis send.
+
+// ici la liste des 5 hotels.
+
+
+
+{
+    {
+        "name":"GoodNight Amsterdam",
+        "star":"2",
+        "adresse":{
+           "cp":"1000",
+           "num":"78",
+           "street":"Javastraat",
+           "country":"Pays-Bas"
+        },
+           "tel":"0486879685",
+           "email":"GooodNight@holland.nl",
+           "room":true,
+           "pool":"Oui",
+           "valet":"Oui",
+           "roomservice":"Oui"
+        
+     }
+}
+
+
+
+
+{
+    {
+        "name":"GoodNight Roma",
+        "star":"3",
+        "adresse":{
+           "cp":"1125",
+           "num":"78",
+           "street":"Via di Cesare",
+           "country":"Italie"
+        },
+           "tel":"0486879687",
+           "email":"GooodNight@italia.it",
+           "room":true,
+           "pool":"Oui",
+           "valet":"Non",
+           "roomservice":"Oui"
+        
+     }
+}
+
+
+
+{
+    "name":"GoodNight Paris",
+    "star":"5",
+    "adresse":{
+       "cp":"88457",
+       "num":"748",
+       "street":"Avenue des champs elysées",
+       "country":"France"
+    },
+       "tel":"0486849687",
+       "email":"GooodNight@france.fr",
+       "room":true,
+       "pool":"Oui",
+       "valet":"Non",
+       "roomservice":"Oui"
+    
+ }
+
+
+
+
+ {
+    "name":"GoodNight Bruxelles",
+    "star":"1",
+    "adresse":{
+       "cp":"1000",
+       "num":"136",
+       "street":"Avenue Louise",
+       "country":"Belgique"
+    },
+       "tel":"0487849687",
+       "email":"GooodNight@belgique.be",
+       "room":true,
+       "pool":"Oui",
+       "valet":"Non",
+       "roomservice":"Oui"
+    
+ }
+
+
+
+ 
+ {
+    "name":"GoodNight Dusseldorf",
+    "star":"1",
+    "adresse":{
+       "cp":"4587",
+       "num":"878",
+       "street":"Carduffstraat",
+       "country":"Allemagne"
+    },
+       "tel":"0487829687",
+       "email":"GooodNight@deutch.de",
+       "room":true,
+       "pool":"Non",
+       "valet":"Non",
+       "roomservice":"Non"
+    
+ }

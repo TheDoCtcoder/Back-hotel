@@ -1,5 +1,6 @@
 const { Schema, model } = require("mongoose");
 const {isEmail, isMobilePhone} = require ('validator')
+const validator = require ('validator')
 
 const hotelSchema = new Schema({
     name:{
@@ -26,9 +27,9 @@ const hotelSchema = new Schema({
             trim:true,
         },
         country:{
-            type:[String],
+            type:String,
             required:true,
-            enum:['Belgique', ' Italie',' France',' Allemagne',' Pays-Bas']
+            enum:['Belgique', 'Italie','France','Allemagne','Pays-Bas']
         },
 
     },
@@ -54,17 +55,17 @@ const hotelSchema = new Schema({
 
     },
     pool:{
-        Type:[String],
-        enum:['Oui','Non'],
-        // required:true
+        type:String,
+        enum:['Oui', 'Non'],
+        required:true
     },
     valet:{
-        type:[String],
+        type:String,
         enum:['Oui', 'Non'],
         required:true
     },
     roomservice:{
-        type:[String],
+        type:String,
         enum:['Oui', 'Non'],
         required:true
     }
