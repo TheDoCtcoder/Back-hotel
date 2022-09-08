@@ -24,7 +24,7 @@ const userSchema = new Schema({
     },
     country:{
         type: String,
-        enum: ['Belgique', ' Italie',' France',' Allemagne',' Pays-Bas'],
+        enum: ['Belgique', 'Italie','France','Allemagne','Pays-Bas'],
         required: true,
     },
     phone:{
