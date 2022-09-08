@@ -1,0 +1,70 @@
+
+// type enum: ['Solo', 'Duo','Familly','Suite'],
+
+{
+
+    "name":"La vita e bella",
+    "desc":"Chambre avec vue sur le coliseum",
+    "type":"Familly",
+    "capacity":3,
+    "balcony":"Oui",
+    "airco":"Oui",
+    "wifi":"oui",
+    "minibar":"Oui",
+    "animal":"Oui",
+    "tv":"Oui",
+    "breakfast": 3,
+    "img": "https://imagizer.imageshack.com/img922/2025/O6b9uS.png",
+    "idhotel": "6318e104723ae0ffdc8068c3"
+
+}
+{
+
+    "name":"La canzone del sole",
+    "desc":"Chambre avec situé au dernier étage avec une terrasse privée",
+    "type":"Solo",
+    "capacity":1,
+    "balcony":"Oui",
+    "airco":"Oui",
+    "wifi":"oui",
+    "minibar":"Oui",
+    "animal":"Oui",
+    "tv":"Oui",
+    "breakfast": 1,
+    "img": "https://imagizer.imageshack.com/img922/3233/3am0iq.png",
+    "idhotel": "6318e104723ae0ffdc8068c3"
+}
+{
+
+    "name":"O sole mio",
+    "desc":"Chambre insonorisée et spacieuse",
+    "type":"Duo",
+    "capacity":1,
+    "balcony":"Oui",
+    "airco":"Oui",
+    "wifi":"oui",
+    "minibar":"Oui",
+    "animal":"Oui",
+    "tv":"Oui",
+    "breakfast": 1,
+    "img": "https://imagizer.imageshack.com/img924/8530/X5aK9B.jpg",
+    "idhotel": "6318e104723ae0ffdc8068c3"
+}
+{
+
+    "name":"la grande famiglia",
+    "desc":"La plus grande chambre de l'hôtel et la plus luxueuse",
+    "type":"Suite",
+    "capacity":6,
+    "balcony":"Oui",
+    "airco":"Oui",
+    "wifi":"oui",
+    "minibar":"Oui",
+    "animal":"Oui",
+    "tv":"Oui",
+    "breakfast": 6,
+    "img": "https://imagizer.imageshack.com/img923/4671/NqnHT5.png",
+    "idhotel": "6318e104723ae0ffdc8068c3"
+}
+
+

@@ -51,7 +51,7 @@ const roomController = {
 
 //* ------------------------------------------------------
 
-    creat: async (req, res) => {
+    create: async (req, res) => {
 
         const roomADD = Reservation(req.body)
 

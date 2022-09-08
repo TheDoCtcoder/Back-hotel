@@ -1,4 +1,4 @@
-const { Schema } = require("mongoose");
+const { Schema, Types } = require("mongoose");
 
 
 
@@ -9,19 +9,15 @@ const roomSchema = new Schema({
         required: true,
         trim:true
     },
-    shortdesc: {
+    desc: {
         type:String,
         required: true,
         trim: true,
     },
-    longdesc: {
-        type:String,
-        required: true,
-        trim: true,
-    },
+
     type:{
         type: String,
-        enum: ['Solo', ' Duo',' Familly',' Suite'],
+        enum: ['Solo', 'Duo','Familly','Suite'],
         required: true,
     },
     capacity:{
@@ -64,22 +60,26 @@ const roomSchema = new Schema({
         type: String,
         trim: true, 
         enum: ['Oui','Non'],
-        required:true
+        required:true,
     },
     breakfast:{
         type:Number,
         required:true,
     },
-    deletedate:{
-        type: Date,
-        trim: true, 
-        enum: ['Oui','Non'],
-        default:"Null",
-    }
-    
+    img:{
+        type:String,
+        required:true,
+    },
+    idhotel:{
+        type: Types.ObjectId,
+        required:true,
 
-})
-
+}
+}
+,{
+    collection: "Room",
+    timestamps:true
+});
 const Room = model('room', roomSchema);
 
 module.exports = Room;
