@@ -1,4 +1,4 @@
-const { Schema, Types } = require("mongoose");
+const { Schema, Types,model } = require("mongoose");
 
 
 
@@ -75,11 +75,12 @@ const roomSchema = new Schema({
         required:true,
 
 }
-}
-,{
+},
+{
     collection: "Room",
     timestamps:true
 });
+
 const Room = model('room', roomSchema);
 
 module.exports = Room;

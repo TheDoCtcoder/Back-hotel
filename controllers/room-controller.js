@@ -1,5 +1,4 @@
 //? ///////////////////////// CONTROLLERS Chambre /////////////////////////
-
 const { json } = require("express")
 
 
@@ -53,7 +52,7 @@ const roomController = {
 
     create: async (req, res) => {
 
-        const roomADD = Reservation(req.body)
+        const roomADD = Room(req.body)
 
         await roomADD.save()
 
